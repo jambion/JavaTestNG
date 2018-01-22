@@ -1,55 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="1" total="9" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Loan Department" duration-ms="161" started-at="2018-01-22T19:08:14Z" finished-at="2018-01-22T19:08:15Z">
+  <suite name="Loan Department" duration-ms="175" started-at="2018-01-22T19:15:19Z" finished-at="2018-01-22T19:15:19Z">
     <groups>
     </groups>
-    <test name="Personal Loan" duration-ms="65" started-at="2018-01-22T19:08:14Z" finished-at="2018-01-22T19:08:15Z">
+    <test name="Personal Loan" duration-ms="82" started-at="2018-01-22T19:15:19Z" finished-at="2018-01-22T19:15:19Z">
       <class name="test.SecondPractice">
-        <test-method status="PASS" signature="personalLoan()[pri:0, instance:test.SecondPractice@5d5eef3d]" name="personalLoan" duration-ms="2" started-at="2018-01-22T11:08:15Z" finished-at="2018-01-22T11:08:15Z">
+        <test-method status="PASS" signature="personalLoan()[pri:0, instance:test.SecondPractice@5d5eef3d]" name="personalLoan" duration-ms="2" started-at="2018-01-22T11:15:19Z" finished-at="2018-01-22T11:15:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- personalLoan -->
       </class> <!-- test.SecondPractice -->
       <class name="test.Practice">
-        <test-method status="PASS" signature="Demo()[pri:0, instance:test.Practice@4439f31e]" name="Demo" duration-ms="23" started-at="2018-01-22T11:08:15Z" finished-at="2018-01-22T11:08:15Z">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:test.Practice@4439f31e]" name="Demo" duration-ms="23" started-at="2018-01-22T11:15:19Z" finished-at="2018-01-22T11:15:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo -->
-        <test-method status="PASS" signature="Demo2()[pri:0, instance:test.Practice@4439f31e]" name="Demo2" duration-ms="2" started-at="2018-01-22T11:08:15Z" finished-at="2018-01-22T11:08:15Z">
+        <test-method status="PASS" signature="Demo2()[pri:0, instance:test.Practice@4439f31e]" name="Demo2" duration-ms="10" started-at="2018-01-22T11:15:19Z" finished-at="2018-01-22T11:15:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo2 -->
       </class> <!-- test.Practice -->
     </test> <!-- Personal Loan -->
-    <test name="Car Loan" duration-ms="14" started-at="2018-01-22T19:08:15Z" finished-at="2018-01-22T19:08:15Z">
+    <test name="Car Loan" duration-ms="9" started-at="2018-01-22T19:15:19Z" finished-at="2018-01-22T19:15:19Z">
       <class name="test.ThirdPractice">
-        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:test.ThirdPractice@6767c1fc]" name="LoginAPICarLoan" duration-ms="2" started-at="2018-01-22T11:08:15Z" finished-at="2018-01-22T11:08:15Z">
+        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:test.ThirdPractice@6767c1fc]" name="LoginAPICarLoan" duration-ms="1" started-at="2018-01-22T11:15:19Z" finished-at="2018-01-22T11:15:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAPICarLoan -->
-        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:test.ThirdPractice@6767c1fc]" name="MobileLoginCarLoan" duration-ms="1" started-at="2018-01-22T11:08:15Z" finished-at="2018-01-22T11:08:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginCarLoan -->
-        <test-method status="PASS" signature="WebLoginCarLoan()[pri:0, instance:test.ThirdPractice@6767c1fc]" name="WebLoginCarLoan" duration-ms="2" started-at="2018-01-22T11:08:15Z" finished-at="2018-01-22T11:08:15Z">
+        <test-method status="PASS" signature="WebLoginCarLoan()[pri:0, instance:test.ThirdPractice@6767c1fc]" name="WebLoginCarLoan" duration-ms="3" started-at="2018-01-22T11:15:19Z" finished-at="2018-01-22T11:15:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebLoginCarLoan -->
       </class> <!-- test.ThirdPractice -->
     </test> <!-- Car Loan -->
-    <test name="House Loan" duration-ms="18" started-at="2018-01-22T19:08:15Z" finished-at="2018-01-22T19:08:15Z">
+    <test name="House Loan" duration-ms="12" started-at="2018-01-22T19:15:19Z" finished-at="2018-01-22T19:15:19Z">
       <class name="test.FourthPractice">
-        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:test.FourthPractice@2b98378d]" name="LoginAPICarLoan" duration-ms="1" started-at="2018-01-22T11:08:15Z" finished-at="2018-01-22T11:08:15Z">
+        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:test.FourthPractice@2b98378d]" name="LoginAPICarLoan" duration-ms="2" started-at="2018-01-22T11:15:19Z" finished-at="2018-01-22T11:15:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAPICarLoan -->
-        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:test.FourthPractice@2b98378d]" name="MobileLoginCarLoan" duration-ms="2" started-at="2018-01-22T11:08:15Z" finished-at="2018-01-22T11:08:15Z">
+        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:test.FourthPractice@2b98378d]" name="MobileLoginCarLoan" duration-ms="1" started-at="2018-01-22T11:15:19Z" finished-at="2018-01-22T11:15:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLoginCarLoan -->
-        <test-method status="PASS" signature="WebLoginHouseLoan()[pri:0, instance:test.FourthPractice@2b98378d]" name="WebLoginHouseLoan" duration-ms="2" started-at="2018-01-22T11:08:15Z" finished-at="2018-01-22T11:08:15Z">
+        <test-method status="PASS" signature="WebLoginHouseLoan()[pri:0, instance:test.FourthPractice@2b98378d]" name="WebLoginHouseLoan" duration-ms="2" started-at="2018-01-22T11:15:19Z" finished-at="2018-01-22T11:15:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebLoginHouseLoan -->

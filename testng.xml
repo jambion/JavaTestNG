@@ -10,7 +10,11 @@
   
   <test name="Car Loan">
   	<classes>
-  		<class name="test.ThirdPractice"/>
+  		<class name="test.ThirdPractice">
+  			<methods>
+  				<exclude name="MobileLoginCarLoan"/>
+  			</methods>
+  		</class>
   	</classes>
   </test>
   
