@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class SecondPractice {
 	
 
-	@Test
+	@Test(groups= {"Smoke"})
 	public void personalLoan() {
 		System.out.println("Personal Loan");
 	}

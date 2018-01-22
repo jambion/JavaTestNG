@@ -1,81 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="10" passed="7">
+<testng-results skipped="0" failed="0" ignored="8" total="10" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Loan Department" duration-ms="130" started-at="2018-01-22T20:51:55Z" finished-at="2018-01-22T20:51:55Z">
+  <suite name="Loan Department" duration-ms="55" started-at="2018-01-22T21:10:33Z" finished-at="2018-01-22T21:10:33Z">
     <groups>
+      <group name="Smoke">
+        <method signature="SecondPractice.personalLoan()[pri:0, instance:test.SecondPractice@5419f379]" name="personalLoan" class="test.SecondPractice"/>
+        <method signature="ThirdPractice.MobileLoginCarLoan()[pri:0, instance:test.ThirdPractice@4f933fd1]" name="MobileLoginCarLoan" class="test.ThirdPractice"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test name="Personal Loan" duration-ms="45" started-at="2018-01-22T20:51:55Z" finished-at="2018-01-22T20:51:55Z">
-      <class name="test.SecondPractice">
-        <test-method status="PASS" signature="prerequisite()[pri:0, instance:test.SecondPractice@62ee68d8]" name="prerequisite" is-config="true" duration-ms="0" started-at="2018-01-22T12:51:55Z" finished-at="2018-01-22T12:51:55Z">
+    <test name="Regression" duration-ms="55" started-at="2018-01-22T21:10:33Z" finished-at="2018-01-22T21:10:33Z">
+      <class name="test.ThirdPractice">
+        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:test.ThirdPractice@4f933fd1]" name="MobileLoginCarLoan" duration-ms="2" started-at="2018-01-22T13:10:33Z" finished-at="2018-01-22T13:10:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- prerequisite -->
-        <test-method status="PASS" signature="personalLoan()[pri:0, instance:test.SecondPractice@62ee68d8]" name="personalLoan" duration-ms="2" started-at="2018-01-22T12:51:55Z" finished-at="2018-01-22T12:51:55Z">
+        </test-method> <!-- MobileLoginCarLoan -->
+      </class> <!-- test.ThirdPractice -->
+      <class name="test.SecondPractice">
+        <test-method status="PASS" signature="personalLoan()[pri:0, instance:test.SecondPractice@5419f379]" name="personalLoan" duration-ms="14" started-at="2018-01-22T13:10:33Z" finished-at="2018-01-22T13:10:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- personalLoan -->
       </class> <!-- test.SecondPractice -->
-      <class name="test.Practice">
-        <test-method status="PASS" signature="Demo()[pri:0, instance:test.Practice@735b5592]" name="Demo" duration-ms="6" started-at="2018-01-22T12:51:55Z" finished-at="2018-01-22T12:51:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Demo -->
-        <test-method status="PASS" signature="PostRequisite()[pri:0, instance:test.Practice@735b5592]" name="PostRequisite" is-config="true" duration-ms="1" started-at="2018-01-22T12:51:55Z" finished-at="2018-01-22T12:51:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PostRequisite -->
-      </class> <!-- test.Practice -->
-    </test> <!-- Personal Loan -->
-    <test name="Car Loan" duration-ms="10" started-at="2018-01-22T20:51:55Z" finished-at="2018-01-22T20:51:55Z">
-      <class name="test.ThirdPractice">
-        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:test.ThirdPractice@59fa1d9b]" name="LoginAPICarLoan" duration-ms="2" started-at="2018-01-22T12:51:55Z" finished-at="2018-01-22T12:51:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginAPICarLoan -->
-        <test-method status="PASS" signature="WebLoginCarLoan()[pri:0, instance:test.ThirdPractice@59fa1d9b]" name="WebLoginCarLoan" duration-ms="1" started-at="2018-01-22T12:51:55Z" finished-at="2018-01-22T12:51:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginCarLoan -->
-      </class> <!-- test.ThirdPractice -->
-    </test> <!-- Car Loan -->
-    <test name="House Loan" duration-ms="21" started-at="2018-01-22T20:51:55Z" finished-at="2018-01-22T20:51:55Z">
-      <class name="test.ThirdPractice">
-        <test-method status="PASS" signature="BeforeEverything()[pri:0, instance:test.ThirdPractice@59fa1d9b]" name="BeforeEverything" is-config="true" duration-ms="10" started-at="2018-01-22T12:51:55Z" finished-at="2018-01-22T12:51:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeEverything -->
-        <test-method status="PASS" signature="AfterEverything()[pri:0, instance:test.ThirdPractice@59fa1d9b]" name="AfterEverything" is-config="true" duration-ms="0" started-at="2018-01-22T12:51:55Z" finished-at="2018-01-22T12:51:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterEverything -->
-      </class> <!-- test.ThirdPractice -->
-      <class name="test.FourthPractice">
-        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:test.FourthPractice@3532ec19]" name="LoginAPICarLoan" duration-ms="2" started-at="2018-01-22T12:51:55Z" finished-at="2018-01-22T12:51:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginAPICarLoan -->
-        <test-method status="PASS" signature="testingBeforeMethod()[pri:0, instance:test.FourthPractice@3532ec19]" name="testingBeforeMethod" is-config="true" duration-ms="0" started-at="2018-01-22T12:51:55Z" finished-at="2018-01-22T12:51:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testingBeforeMethod -->
-        <test-method status="PASS" signature="testingBeforeMethod()[pri:0, instance:test.FourthPractice@3532ec19]" name="testingBeforeMethod" is-config="true" duration-ms="0" started-at="2018-01-22T12:51:55Z" finished-at="2018-01-22T12:51:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testingBeforeMethod -->
-        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:test.FourthPractice@3532ec19]" name="MobileLoginCarLoan" duration-ms="1" started-at="2018-01-22T12:51:55Z" finished-at="2018-01-22T12:51:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginCarLoan -->
-        <test-method status="PASS" signature="WebLoginHouseLoan()[pri:0, instance:test.FourthPractice@3532ec19]" name="WebLoginHouseLoan" duration-ms="1" started-at="2018-01-22T12:51:55Z" finished-at="2018-01-22T12:51:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginHouseLoan -->
-        <test-method status="PASS" signature="testingBeforeMethod()[pri:0, instance:test.FourthPractice@3532ec19]" name="testingBeforeMethod" is-config="true" duration-ms="0" started-at="2018-01-22T12:51:55Z" finished-at="2018-01-22T12:51:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testingBeforeMethod -->
-      </class> <!-- test.FourthPractice -->
-    </test> <!-- House Loan -->
+    </test> <!-- Regression -->
   </suite> <!-- Loan Department -->
 </testng-results>
