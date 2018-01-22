@@ -4,7 +4,19 @@
   <test thread-count="5" name="Personal Loan">
     <classes>
       <class name="test.Practice"/>
-      <class name="test.SecondPractice"/>
+      <class name="test.SecondPractice"/>      
     </classes>
   </test> <!-- Test -->
+  
+  <test name="Car Loan">
+  	<classes>
+  		<class name="test.ThirdPractice"/>
+  	</classes>
+  </test>
+  
+  <test name="House Loan">
+  	<classes>
+  		<class name="test.FourthPractice"/>
+  	</classes>
+  </test>
 </suite> <!-- Suite -->
