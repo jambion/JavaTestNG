@@ -16,6 +16,13 @@ public class ThirdPractice {
 
 	}
 	
+	@Test
+	public void MobileSignUpCarLoan() {
+		// Appium
+		System.out.println("Mobile Sign Up Car Loan");
+
+	}
+	
 	@Test 
 	public void LoginAPICarLoan() {
 		// Rest API automation

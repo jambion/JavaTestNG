@@ -17,7 +17,7 @@
   	<classes>
   		<class name="test.ThirdPractice">
   			<methods>
-  				<exclude name="MobileLoginCarLoan"/>
+  				<exclude name="Mobile.*"/> 
   			</methods>
   		</class>
   	</classes>
