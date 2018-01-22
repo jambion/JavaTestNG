@@ -1,8 +1,16 @@
 package test;
 
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class ThirdPractice {
+	
+	
+	@AfterSuite
+	public void AfterEverything() {
+		System.out.println("I am executing after everything");
+	}
 	@Test
 	public void WebLoginCarLoan() {
 		// Selenium
@@ -14,6 +22,11 @@ public class ThirdPractice {
 		// Appium
 		System.out.println("Mobile Login Car Loan");
 
+	}
+	
+	@BeforeSuite
+	public void BeforeEverything() {
+		System.out.println("I am executing first");
 	}
 	
 	@Test

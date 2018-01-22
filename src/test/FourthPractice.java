@@ -1,8 +1,16 @@
 package test;
 
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class FourthPractice {
+	
+	@BeforeMethod
+	public void testingBeforeMethod() {
+		System.out.println("Test before method on fourth practice");
+	}
+	
+	
 	@Test
 	public void WebLoginHouseLoan() {
 		// Selenium
