@@ -22,9 +22,7 @@
   <parameter name="URL" value="CarLoan.com"/>
   	<classes>
   		<class name="test.ThirdPractice">
-  			<methods>
-  				<exclude name="Mobile.*"/> 
-  			</methods>
+
   		</class>
   	</classes>
   </test>

@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="10" passed="7">
+<testng-results skipped="0" failed="0" ignored="1" total="12" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Loan Department" duration-ms="167" started-at="2018-01-22T21:55:36Z" finished-at="2018-01-22T21:55:36Z">
+  <suite name="Loan Department" duration-ms="153" started-at="2018-01-22T22:18:02Z" finished-at="2018-01-22T22:18:02Z">
     <groups>
       <group name="Smoke">
         <method signature="SecondPractice.personalLoan()[pri:0, instance:test.SecondPractice@5419f379]" name="personalLoan" class="test.SecondPractice"/>
+        <method signature="ThirdPractice.MobileLoginCarLoan()[pri:0, instance:test.ThirdPractice@5b275dab]" name="MobileLoginCarLoan" class="test.ThirdPractice"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="Personal Loan" duration-ms="66" started-at="2018-01-22T21:55:36Z" finished-at="2018-01-22T21:55:36Z">
+    <test name="Personal Loan" duration-ms="47" started-at="2018-01-22T22:18:02Z" finished-at="2018-01-22T22:18:02Z">
       <class name="test.SecondPractice">
-        <test-method status="PASS" signature="prerequisite()[pri:0, instance:test.SecondPractice@5419f379]" name="prerequisite" is-config="true" duration-ms="15" started-at="2018-01-22T13:55:36Z" finished-at="2018-01-22T13:55:36Z">
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:test.SecondPractice@5419f379]" name="prerequisite" is-config="true" duration-ms="12" started-at="2018-01-22T14:18:02Z" finished-at="2018-01-22T14:18:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prerequisite -->
-        <test-method status="PASS" signature="personalLoan()[pri:0, instance:test.SecondPractice@5419f379]" name="personalLoan" duration-ms="1" started-at="2018-01-22T13:55:36Z" finished-at="2018-01-22T13:55:36Z">
+        <test-method status="PASS" signature="personalLoan()[pri:0, instance:test.SecondPractice@5419f379]" name="personalLoan" duration-ms="2" started-at="2018-01-22T14:18:02Z" finished-at="2018-01-22T14:18:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- personalLoan -->
       </class> <!-- test.SecondPractice -->
       <class name="test.Practice">
-        <test-method status="PASS" signature="Demo(java.lang.String, java.lang.String)[pri:0, instance:test.Practice@7dc7cbad]" name="Demo" duration-ms="9" started-at="2018-01-22T13:55:36Z" finished-at="2018-01-22T13:55:36Z">
+        <test-method status="PASS" signature="Demo(java.lang.String, java.lang.String)[pri:0, instance:test.Practice@7dc7cbad]" name="Demo" duration-ms="7" started-at="2018-01-22T14:18:02Z" finished-at="2018-01-22T14:18:02Z">
           <params>
             <param index="0">
               <value>
@@ -36,19 +37,71 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo -->
-        <test-method status="PASS" signature="PostRequisite()[pri:0, instance:test.Practice@7dc7cbad]" name="PostRequisite" is-config="true" duration-ms="0" started-at="2018-01-22T13:55:36Z" finished-at="2018-01-22T13:55:36Z">
+        <test-method status="PASS" signature="PostRequisite()[pri:0, instance:test.Practice@7dc7cbad]" name="PostRequisite" is-config="true" duration-ms="0" started-at="2018-01-22T14:18:02Z" finished-at="2018-01-22T14:18:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PostRequisite -->
       </class> <!-- test.Practice -->
     </test> <!-- Personal Loan -->
-    <test name="Car Loan" duration-ms="10" started-at="2018-01-22T21:55:36Z" finished-at="2018-01-22T21:55:36Z">
+    <test name="Car Loan" duration-ms="29" started-at="2018-01-22T22:18:02Z" finished-at="2018-01-22T22:18:02Z">
       <class name="test.ThirdPractice">
-        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:test.ThirdPractice@4501b7af]" name="LoginAPICarLoan" duration-ms="2" started-at="2018-01-22T13:55:36Z" finished-at="2018-01-22T13:55:36Z">
+        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:test.ThirdPractice@5b275dab]" name="LoginAPICarLoan" duration-ms="2" started-at="2018-01-22T14:18:02Z" finished-at="2018-01-22T14:18:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAPICarLoan -->
-        <test-method status="PASS" signature="WebLoginCarLoan(java.lang.String)[pri:0, instance:test.ThirdPractice@4501b7af]" name="WebLoginCarLoan" duration-ms="1" started-at="2018-01-22T13:55:36Z" finished-at="2018-01-22T13:55:36Z">
+        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:test.ThirdPractice@5b275dab]" name="MobileLoginCarLoan" duration-ms="2" started-at="2018-01-22T14:18:02Z" finished-at="2018-01-22T14:18:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method status="PASS" signature="MobileSignUpCarLoan(java.lang.String, java.lang.String)[pri:0, instance:test.ThirdPractice@5b275dab]" name="MobileSignUpCarLoan" duration-ms="1" started-at="2018-01-22T14:18:02Z" data-provider="getData" finished-at="2018-01-22T14:18:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FirstUserPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignUpCarLoan -->
+        <test-method status="PASS" signature="MobileSignUpCarLoan(java.lang.String, java.lang.String)[pri:0, instance:test.ThirdPractice@5b275dab]" name="MobileSignUpCarLoan" duration-ms="1" started-at="2018-01-22T14:18:02Z" data-provider="getData" finished-at="2018-01-22T14:18:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondUserPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignUpCarLoan -->
+        <test-method status="PASS" signature="MobileSignUpCarLoan(java.lang.String, java.lang.String)[pri:0, instance:test.ThirdPractice@5b275dab]" name="MobileSignUpCarLoan" duration-ms="2" started-at="2018-01-22T14:18:02Z" data-provider="getData" finished-at="2018-01-22T14:18:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdUserPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignUpCarLoan -->
+        <test-method status="PASS" signature="WebLoginCarLoan(java.lang.String)[pri:0, instance:test.ThirdPractice@5b275dab]" name="WebLoginCarLoan" duration-ms="2" started-at="2018-01-22T14:18:02Z" finished-at="2018-01-22T14:18:02Z">
           <params>
             <param index="0">
               <value>
@@ -61,17 +114,17 @@
         </test-method> <!-- WebLoginCarLoan -->
       </class> <!-- test.ThirdPractice -->
     </test> <!-- Car Loan -->
-    <test name="House Loan" duration-ms="25" started-at="2018-01-22T21:55:36Z" finished-at="2018-01-22T21:55:36Z">
+    <test name="House Loan" duration-ms="22" started-at="2018-01-22T22:18:02Z" finished-at="2018-01-22T22:18:02Z">
       <class name="test.FourthPractice">
-        <test-method status="PASS" signature="WebLoginHouseLoan()[pri:0, instance:test.FourthPractice@68c4039c]" name="WebLoginHouseLoan" duration-ms="1" started-at="2018-01-22T13:55:36Z" finished-at="2018-01-22T13:55:36Z">
+        <test-method status="PASS" signature="WebLoginHouseLoan()[pri:0, instance:test.FourthPractice@59f99ea]" name="WebLoginHouseLoan" duration-ms="1" started-at="2018-01-22T14:18:02Z" finished-at="2018-01-22T14:18:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebLoginHouseLoan -->
-        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:test.FourthPractice@68c4039c]" name="MobileLoginCarLoan" duration-ms="11" started-at="2018-01-22T13:55:36Z" finished-at="2018-01-22T13:55:36Z">
+        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:test.FourthPractice@59f99ea]" name="MobileLoginCarLoan" duration-ms="10" started-at="2018-01-22T14:18:02Z" finished-at="2018-01-22T14:18:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLoginCarLoan -->
-        <test-method status="PASS" signature="LoginAPICarLoan(java.lang.String)[pri:0, instance:test.FourthPractice@68c4039c]" name="LoginAPICarLoan" duration-ms="2" started-at="2018-01-22T13:55:36Z" depends-on-methods="test.FourthPractice.WebLoginHouseLoan" finished-at="2018-01-22T13:55:36Z">
+        <test-method status="PASS" signature="LoginAPICarLoan(java.lang.String)[pri:0, instance:test.FourthPractice@59f99ea]" name="LoginAPICarLoan" duration-ms="1" started-at="2018-01-22T14:18:02Z" depends-on-methods="test.FourthPractice.WebLoginHouseLoan" finished-at="2018-01-22T14:18:02Z">
           <params>
             <param index="0">
               <value>
