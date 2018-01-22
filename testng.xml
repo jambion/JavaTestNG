@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Loan Department">
-
+  <parameter name="URL" value="https://www.google.com"/>
+  
+  
   <test thread-count="5" name="Personal Loan">
+  	<parameter name="URL" value="PersonalLoan.com"/>
+  	<parameter name="Username" value="TestName"/>
     <classes>
       <class name="test.Practice">
       	<methods>
@@ -15,6 +19,7 @@
   </test> <!-- Test -->
   
   <test name="Car Loan">
+  <parameter name="URL" value="CarLoan.com"/>
   	<classes>
   		<class name="test.ThirdPractice">
   			<methods>

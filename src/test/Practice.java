@@ -1,6 +1,7 @@
 package test;
 
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Practice {
@@ -10,9 +11,11 @@ public class Practice {
 		System.out.println("I will execute last in this folder");
 	}
 	
+	@Parameters({"URL", "Username"})
 	@Test
-	public void Demo() {
-		System.out.println("Test");
+	public void Demo(String urlname, String username) {
+		System.out.println("Test Personal Loan");
+		System.out.println(urlname + " " + username);
 	}
 	
 	@Test

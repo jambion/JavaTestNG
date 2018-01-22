@@ -4,27 +4,30 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class ThirdPractice {
-	@BeforeClass
-	public void BeforeClassTest() {
-		System.out.println("Before executing anything in the third class");
-	}
-	
-	@AfterClass
-	public void AfterClassTest() {
-		System.out.println("After executing everything in the third class");
-	}
-	
-	@AfterSuite
-	public void AfterEverything() {
-		System.out.println("I am executing after everything");
-	}
+//	@BeforeClass
+//	public void BeforeClassTest() {
+//		System.out.println("Before executing anything in the third class");
+//	}
+//	
+//	@AfterClass
+//	public void AfterClassTest() {
+//		System.out.println("After executing everything in the third class");
+//	}
+//	
+//	@AfterSuite
+//	public void AfterEverything() {
+//		System.out.println("I am executing after everything");
+//	}
+	@Parameters({"URL"})
 	@Test
-	public void WebLoginCarLoan() {
+	public void WebLoginCarLoan(String urlname) {
 		// Selenium
 		System.out.println("Web login car");
+		System.out.println(urlname);
 	}
 	
 	@Test(groups= {"Smoke"})
@@ -34,10 +37,10 @@ public class ThirdPractice {
 
 	}
 	
-	@BeforeSuite
-	public void BeforeEverything() {
-		System.out.println("I am executing first");
-	}
+//	@BeforeSuite
+//	public void BeforeEverything() {
+//		System.out.println("I am executing first");
+//	}
 	
 	@Test
 	public void MobileSignUpCarLoan() {
@@ -46,7 +49,7 @@ public class ThirdPractice {
 
 	}
 	
-	@Test 
+	@Test
 	public void LoginAPICarLoan() {
 		// Rest API automation
 		System.out.println("Login API Car Loan");
